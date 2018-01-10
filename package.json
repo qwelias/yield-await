@@ -1,0 +1,24 @@
+{
+  "name": "yield-await",
+  "version": "1.0.0",
+  "description": "Use generator as an async/await function",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qwelias/yield-await.git"
+  },
+  "keywords": [
+    "async",
+    "await",
+    "yield",
+    "generator",
+    "promise",
+    "es6"
+  ],
+  "author": "Ilia Baryshnikov <qwelias@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/qwelias/yield-await/issues"
+  },
+  "homepage": "https://github.com/qwelias/yield-await#readme"
+}
