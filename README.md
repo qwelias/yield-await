@@ -1,2 +1,2 @@
 # yield-await
-Use generator as an async/await function
+Use generator's `yield` as `await`
