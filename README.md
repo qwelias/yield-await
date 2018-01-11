@@ -1,6 +1,6 @@
 # yield-await
 Use generator's `yield` as `await`.
-> In case you're stuck atn NodeJS 6, otherwise just use async functions
+> In case you're stuck at NodeJS 6, otherwise just use async functions
 
 ## Usage
 ```js
