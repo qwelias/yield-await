@@ -27,23 +27,3 @@ doStuff(foo, bar).then(result => {
   ...
 })
 ```
-
-## Known issue
-It is impossible to throw into generator if it is done, so the following example is invalid unlike in async function
-```js
-try {
-    return Promise.reject(reason)
-} catch (e) {
-    return value
-}
-```
-catch statement will be unreachable.
-
-In order to make it valid it is required to `yield` returned promise, like so
-```js
-try {
-    return yield Promise.reject(reason)
-} catch (e) {
-    return value
-}
-```
